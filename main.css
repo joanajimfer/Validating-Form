@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+title, script{
+    display: none;
+}
+body{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: 5rem auto 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h1{
+    margin: 2rem;
+    padding-top: 2rem;
+}
+main{
+    background-color: white;
+    width: 70%;
+    margin: 0 auto 5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+legend{
+    margin-left: 1.6rem;
+    padding: .5rem;
+}
+fieldset{
+    width: 65%;
+    margin: 0rem auto;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+}
+input[type="text"], input[type="password"], input[type="number"], input[type="date"] {
+    background-color: rgb(248, 241, 241);
+    border: none;
+    border-radius: 3px;
+    padding: .5rem 2rem;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, select:focus {
+    background-color: #a8eb12;
+}
+input[type="radio"]{
+    margin-right: 1rem;
+}
+input[type="submit"]{
+    margin: 0 auto 3rem;
+    padding: .8rem 2rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.submit--wrap{
+    padding-bottom: 1rem;
+}
+.input--wrap{
+    margin: .5rem 2rem;
+}
+.radio--wrap{
+    display: flex;
+    align-items: center;
+    margin: .5rem 2rem;
+}
+.register--text{
+    margin: .5rem 2rem;
+}
+.input-agreement{
+    margin-top: 2rem;
+}
+@media (max-width: 660px){
+    main, header, fieldset, select{
+        width: 85%;
+    }
+    .input--wrap{
+        margin: .5rem;
+    }
+}
