@@ -87,6 +87,9 @@ function validateForm() {
         alert('Debe aceptar el acuerdo de servicios, las cookies y la declaración de privacidad para continuar');
         return false
     }
+    else {
+        alert('Gracias por registrarte');
+    }
 }
 
 
